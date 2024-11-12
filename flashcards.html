@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Study</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <input type="text" class="search-bar" placeholder="Find it faster with a search">
+            <nav class="nav">
+                <button class="nav-btn active">Flashcards</button>
+                <button class="nav-btn">Learn</button>
+                <button class="nav-btn">Test</button>
+                <button class="nav-btn">Match</button>
+            </nav>
+            <button class="add-btn">+</button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="flashcard">
+            <div class="question">Definition</div>
+            <p class="flashcard-text">The accumulation of molecular species at the surface rather than in the bulk of solid or liquid</p>
+            <!-- <img src="image.png" alt="Example diagram" class="flashcard-image"> -->
+            <div class="options">
+                <button class="option">1 Adsorption</button>
+                <button class="option">2 Absorption</button>
+                <button class="option">3 Desorption</button>
+                <button class="option">4 Physisorption (or physical adsorption)</button>
+            </div>
+            <a href="#" class="dont-know">Don't know?</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, sans-serif; */
+    color: #f5f5f5;
+
+}
+
+body {
+    background-color: #1c1c3c;
+    color: #f5f5f5;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slumber{
+    color: #f5f5f5;
+
+}
+
+.navbar{
+    background-color: #1c1c3c;
+}
+
+.logo
+{
+   font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    overflow-x: scroll;
+    overflow: hidden;
+    padding: 10px;
+    gap: 10px;
+}
+.card {
+    flex: 0 0 auto;
+    width: 200px;
+}
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.scroll-button-left {
+    left: 10px;
+}
+.scroll-button-right {
+    right: 10px;
+}
