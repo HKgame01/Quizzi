@@ -13,7 +13,7 @@ function activator() {
     this.classList.add('active');
 }
 function scrollCards(direction) {
-    const container = document.querySelector('.card-container');
+    const container = document.querySelector('.first-card-container');
     const scrollAmount = 220; // Amount to scroll per click (adjust as needed)
     container.scrollBy({
         left: direction * scrollAmount,
